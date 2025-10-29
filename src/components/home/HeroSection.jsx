@@ -12,7 +12,7 @@ export default function HeroSection() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 1.5 }}
-              className="text-6xl font-extrabold text-company-800"
+              className="text-5xl lg:text-6xl font-extrabold text-company-800"
             >
               Tech Enthusiast & Development
             </motion.h1>

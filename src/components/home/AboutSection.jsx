@@ -7,11 +7,11 @@ import { motion } from "framer-motion";
 export default function About() {
   return (
     <>
-      <section className="bg-company-600 lg:px-20 px-10 py-20">
+      <section className="bg-company-600 lg:px-20 px-8 py-20">
         <div className="flex justify-center items-center mx-auto text-center">
           <div className="text-company-50">
             <motion.h1
-              className="text-4xl font-extrabold"
+              className="text-3xl lg:text-4xl font-extrabold"
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.2 }}
@@ -20,7 +20,7 @@ export default function About() {
               Hello, I’m Dimas Nugraha.
             </motion.h1>
             <motion.h1
-              className="text-4xl font-extrabold"
+              className="text-3xl lg:text-4xl font-extrabold"
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.2 }}
