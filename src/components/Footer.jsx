@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <div className="bg-company-600 text-company-50 py-20 text-center">
-        <div>
+        <div className="">
           Just live like playing a game, running side quest and main quest,
           grinding to the next leveling up.
         </div>
