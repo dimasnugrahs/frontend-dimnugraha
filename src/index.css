@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import "tailwindcss";
+
+/* button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+
+@theme {
+  --font-display: "DM Sans", Arial, sans-serif;
+
+  --color-company-50: #effef7;
+  --color-company-100: #dbfdee;
+  --color-company-200: #b8fadc;
+  --color-company-300: #82f3c1;
+  --color-company-400: #44e49d;
+  --color-company-500: #1bcc7e;
+  --color-company-600: #10a966;
+  --color-company-700: #118955;
+  --color-company-800: #136843;
+  --color-company-900: #115639;
+  --color-company-950: #03301f;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-family: var(--font-display);
+  background: var(--color-company-50);
+  color: var(--color-company-950);
+}
